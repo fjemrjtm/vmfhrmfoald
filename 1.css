@@ -1,0 +1,155 @@
+ul {
+    list-style: none;
+
+}
+
+
+
+body{
+    background-color:rgb(196, 196, 196)
+}
+
+section{
+width: 340px;
+padding: 30px;
+background-color:#fff;
+margin:50px auto;
+box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+
+section nav.menu{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #0f1044;
+
+}
+
+section article.profile{
+    width:100%;
+    text-align: center;
+
+}
+
+section article.profile img{
+    width:200px;
+    height:200px;
+    border-radius:20%;
+    margin-bottom: 20px;
+
+}
+
+section article.profile h1{
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "arial";
+    line-height: 1;
+    color: #555;
+    margin-bottom: 5px;
+
+}
+
+section article.profile h2{
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "arial";
+    line-height: 1;
+    color: #bbb;
+    margin-bottom: 30px;
+
+}
+
+section a.btnview{
+    display: block;
+    width: 180px;
+    height: 32px;
+    margin: 0px auto 20px;
+    background-color: #555;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: "arial";
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+
+    background: linear-gradient(45deg, #64b5eb, #f2a7ef);
+    box-shadow: 5px 10px 20px rgba(19, 19, 19, 0.275);
+
+
+
+}
+
+section ul.contact{
+    margin-bottom: 20px;
+}
+
+section ul.contact li{
+    width: 100%;
+    padding: 10px 0px;
+
+}
+
+
+section ul.contact li i{
+width: 20%;
+text-align: center;
+color: #555;
+font-size: 15px;
+text-shadow: 2px 2px 2px #ddd;
+}
+
+section ul.contact li i span{
+    font-weight: normal;
+    font-size: 11px;
+    color: #555;
+    letter-spacing: 1px;
+
+
+}
+
+
+section nav.others{
+    width: 100%;
+    text-align: center;
+    
+}
+
+section nav.others a{
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 10px;
+
+}
+
+section nav.others a:nth-of-type(1) {
+    background-color: rgb(55, 141, 175);
+    box-shadow: 5px 5px 10px #555;
+}
+
+
+section nav.others a:nth-of-type(2) {
+    background-color: rgb(255, 249, 192);
+    box-shadow: 5px 5px 10px #555;
+}
+
+section nav.others a:nth-of-type(3) {
+    background-color: rgb(203, 234, 201);
+    box-shadow: 5px 5px 10px #555;
+}
+
+section nav.others a:nth-of-type(4) {
+    background-color: rgb(235, 191, 167);
+    box-shadow: 5px 5px 10px #555;
+}
+
+section nav.others a:nth-of-type(5) {
+    background-color: rgb(236, 168, 190);
+    box-shadow: 5px 5px 10px #555;
+}
+
